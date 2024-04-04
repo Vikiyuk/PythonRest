@@ -2,8 +2,15 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+<<<<<<< HEAD
 
 employees = [
+=======
+# Przykładowa lista pracowników
+employees = [
+    {"id": 1, "first_name": "John", "last_name": "Doe", "position": "Manager"},
+    {"id": 2, "first_name": "Jane", "last_name": "Smith", "position": "Developer"},
+>>>>>>> ffa1a2bcbf20ad106e1812a2ec2ce09b15d3231c
 ]
 
 
